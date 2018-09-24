@@ -25,7 +25,7 @@ _After mounting a smartphone on the dashboard of a car, we can estimate the acce
 ### Recognizing movements
 Automobile Analytics focused on a few basic driving behaviors such as, turning, braking, starting and stopping. Using a dashboard mounted phone, we can utilize accelerometer data to identify if the vehicle is turning too sharply, stopping too hard, starting in a not smooth manner, or shifting in an unsettling way.
 
-After smoothing the data with a low-pass filter, various movements can be recognized by analyzing the 
+After smoothing the data with a low-pass filter, various movements can be recognized by analyzing the acceleration along various axes
 
 <img src="img/turn_corrected_acc.svg" alt="Car-Phone Reference Frames" width="400" style="text-align:center;">
 
