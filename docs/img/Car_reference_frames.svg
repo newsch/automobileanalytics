@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 312.7 372.7" style="enable-background:new 0 0 312.7 372.7;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;stroke:#000000;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#000000;stroke-miterlimit:10;}
+	.st2{font-family:'MyriadPro-Regular';}
+	.st3{font-size:12px;}
+</style>
+<path class="st0" d="M269.9,132.8c0,20.3-16.4,36.7-36.7,36.7s-36.7-16.4-36.7-36.7"/>
+<rect x="58.8" y="25.9" class="st0" width="226.1" height="107"/>
+<path class="st0" d="M142.3,133.4c0,20-16,36.2-35.7,36.2S71,153.4,71,133.4"/>
+<g>
+	<g>
+		<line class="st1" x1="171.9" y1="79.4" x2="171.9" y2="57.4"/>
+		<g>
+			<polygon points="176.9,58.9 171.9,50.2 166.9,58.9 			"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<line class="st1" x1="171.9" y1="79.4" x2="195.1" y2="79.4"/>
+		<g>
+			<polygon points="193.7,84.4 202.3,79.4 193.7,74.4 			"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<line class="st1" x1="245.8" y1="64.8" x2="245.8" y2="57.4"/>
+		<g>
+			<polygon points="250.8,58.9 245.8,50.2 240.8,58.9 			"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<line class="st1" x1="245.8" y1="64.8" x2="259.7" y2="64.8"/>
+		<g>
+			<polygon points="258.2,69.8 266.9,64.8 258.2,59.8 			"/>
+		</g>
+	</g>
+</g>
+<text transform="matrix(1 0 0 1 193.6834 96.1069)" class="st2 st3">Y</text>
+<text transform="matrix(1 0 0 1 171.8838 96.1069)" class="st2 st3">X</text>
+<text transform="matrix(1 0 0 1 159.449 57.5199)" class="st2 st3">Z</text>
+<text transform="matrix(1 0 0 1 256.8403 79.3678)" class="st2 st3">X</text>
+<text transform="matrix(1 0 0 1 233.1884 57.5201)" class="st2 st3">Z</text>
+<rect x="66.9" y="227.2" class="st0" width="226.1" height="107"/>
+<g>
+	<g>
+		<line class="st1" x1="178.7" y1="281.3" x2="178.7" y2="299.8"/>
+		<g>
+			<polygon points="173.7,298.4 178.7,307 183.7,298.4 			"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<line class="st1" x1="178.7" y1="281.3" x2="201.9" y2="281.3"/>
+		<g>
+			<polygon points="200.5,286.3 209.1,281.3 200.5,276.3 			"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<line class="st1" x1="256.5" y1="281.3" x2="256.5" y2="273.9"/>
+		<g>
+			<polygon points="261.5,275.4 256.5,266.8 251.5,275.4 			"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<line class="st1" x1="256.5" y1="281.3" x2="267.7" y2="281.3"/>
+		<g>
+			<polygon points="266.2,286.3 274.8,281.3 266.2,276.3 			"/>
+		</g>
+	</g>
+</g>
+<text transform="matrix(1 0 0 1 200.4807 298.0725)" class="st2 st3">Y</text>
+<text transform="matrix(1 0 0 1 166.2464 306.9852)" class="st2 st3">X</text>
+<text transform="matrix(1 0 0 1 177.2139 276.9928)" class="st2 st3">Z</text>
+<text transform="matrix(1 0 0 1 267.5073 295.8987)" class="st2 st3">X</text>
+<text transform="matrix(1 0 0 1 245.2569 274.0512)" class="st2 st3">Y</text>
+<text transform="matrix(1 0 0 1 239.0579 79.3675)" class="st2 st3">Y</text>
+<rect x="71.9" y="207.5" class="st0" width="71.3" height="19.1"/>
+<rect x="197.4" y="207.5" class="st0" width="73.5" height="19.1"/>
+<rect x="197.4" y="334.8" class="st0" width="73.5" height="19.1"/>
+<rect x="71.9" y="334.8" class="st0" width="71.3" height="19.1"/>
+<text transform="matrix(1 0 0 1 253.5073 295.8985)" class="st2 st3">Z</text>
+<circle class="st0" cx="256.5" cy="281.3" r="1.5"/>
+<circle class="st0" cx="178.7" cy="281.3" r="1.5"/>
+<circle class="st0" cx="245.8" cy="64.8" r="1.5"/>
+<circle class="st0" cx="171.9" cy="79.4" r="1.5"/>
+<text transform="matrix(1 0 0 1 177.2141 320.0003)" class="st2 st3">Car COM</text>
+<text transform="matrix(1 0 0 1 170.4165 106.0632)" class="st2 st3">Car COM</text>
+<text transform="matrix(1 0 0 1 239.0579 96.1069)" class="st2 st3">Phone</text>
+<text transform="matrix(1 0 0 1 248.1923 312.9852)" class="st2 st3">Phone</text>
+<g>
+	<g>
+		<line class="st1" x1="170.9" y1="34.1" x2="246.8" y2="34.7"/>
+		<g>
+			<rect x="167.7" y="33.6" transform="matrix(8.667063e-03 -1 1 8.667063e-03 135.3686 204.6825)" width="6.5" height="1"/>
+		</g>
+		<g>
+			<rect x="243.5" y="34.2" transform="matrix(8.682454e-03 -1 1 8.682454e-03 209.8973 281.1791)" width="6.5" height="1"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<line class="st1" x1="151.7" y1="78.9" x2="151.7" y2="65.3"/>
+		<g>
+			<rect x="148.5" y="78.4" width="6.5" height="1"/>
+		</g>
+		<g>
+			<rect x="148.5" y="64.8" width="6.5" height="1"/>
+		</g>
+	</g>
+</g>
+<line class="st1" x1="342" y1="126" x2="342.7" y2="126.7"/>
+<text transform="matrix(1 0 0 1 138.4057 79.3675)" class="st2 st3">H</text>
+<text transform="matrix(0.7057 0 0 1 207.2669 47.5707)" class="st2 st3">L</text>
+<g>
+	<g>
+		<line class="st1" x1="179.2" y1="247.5" x2="255" y2="248.2"/>
+		<g>
+			<rect x="175.9" y="247" transform="matrix(8.667063e-03 -1 1 8.667063e-03 -69.8609 424.5276)" width="6.5" height="1"/>
+		</g>
+		<g>
+			<rect x="251.8" y="247.7" transform="matrix(8.682454e-03 -1 1 8.682454e-03 4.6677 501.0209)" width="6.5" height="1"/>
+		</g>
+	</g>
+</g>
+<text transform="matrix(1 0 0 1 212.6665 261.333)" class="st2 st3">L</text>
+<text transform="matrix(1 0 0 1 20.4059 77.9003)" class="st2 st3">Side</text>
+<text transform="matrix(1 0 0 1 21.3335 281.3333)" class="st2 st3">Top</text>
+</svg>
