@@ -25,28 +25,26 @@ Automobile Analytics focused on a few basic driving behaviors such as, turning, 
 ### Detecting Engine RPM
 In order to analyze shifting data for manual transmission drivers, our app can determine engine RPM based on engine vibration, felt through the dashboard of the vehicle. A quick momentary drop in engine rpms is an easy way to identify an upshift while rapid changes in accelerometer data indicates rough shifts.
 
-<img src="img/4stroke_cycle.gif" alt="visual of 4-stroke engine cycle" height=400 width=300>
+<img src="img/4stroke_cycle.gif" alt="visual of 4-stroke engine cycle" height="400" width="300">
 
-<img src="img/4stroke_cycle.gif" alt="visual of 4-stroke engine cycle" height="800" width="400">
 
 _In most four-stroke engines, there are two combustions per revolution of the crankshaft ([image source](https://xorl.wordpress.com/2011/03/05/the-basics-of-4-stroke-internal-combustion-engines/))._
 
 For the car tested, we identified that there should be two combustions per rotation of the crankshaft. This was important for us because we attributed each pulse of engine vibration to an individual combustion.
 
 <img src="img/rpm_conversion_eqn.svg" alt="rpm conversion equation">
-<img src="img/rpm_conversion_eqn.svg" alt="rpm conversion equation" height="800" width="400">
-<img src="./rpm_conversion_eqn.svg">
+
 
 
 Using this equation we were able to estimate what frequency engine RPM would appear as and then analyze the accelerometer data recorded by the phone at different engine RPMs to see if the frequency showed up in our collected data.
 
-<img src="img/engine_frequency750.svg" alt="measured frequencies at 750RPM" height=400 width=400>
+<img src="img/engine_frequency750.svg" alt="measured frequencies at 750RPM" height="400" width="400">
 
 While idling at about 750RPM, we found significant peaks in all three axes at a frequency of 27Hz, which converts to approximately 810 RPM.
 While smaller peaks are evident at roughly 13.5Hz (the engine RPM without a factor of 2), we found that frequency present in our measurements regardless of the engine RPM, indicating that it may relate to the frequency response of the dashboard/car than the engine's vibrations.
 
-<img src="img/engine_frequency2000.svg" alt="measured frequencies at 2000RPM" height=400 width=400>
-<img src="img/engine_frequency3000.svg" alt="measured frequencies at 3000RPM" height=400 width=400>
+<img src="img/engine_frequency2000.svg" alt="measured frequencies at 2000RPM" height="400" width="400">
+<img src="img/engine_frequency3000.svg" alt="measured frequencies at 3000RPM" height="400" width="400">
 
 _Note the presence of the 17.5Hz frequency regardless of engine RPM._
 
@@ -61,3 +59,4 @@ Reading engine RPM data from the OBDII port (a diagnostics port found in most mo
 Another step would be to include a source of vocal feedback, ideally the phone would speak to the driver to notify them of their poor driving.
 
 A final step would be to create an actual app that could be downloaded onto a phone, with some sort of a user interface so the user could interact with the app.
+"
