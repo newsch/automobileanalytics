@@ -25,7 +25,7 @@ Automobile Analytics focused on a few basic driving behaviors such as, turning, 
 ### Detecting Engine RPM
 In order to analyze shifting data for manual transmission drivers, our app can determine engine RPM based on engine vibration, felt through the dashboard of the vehicle. A quick momentary drop in engine rpms is an easy way to identify an upshift while rapid changes in accelerometer data indicates rough shifts.
 
-<img src="img/4stroke_cycle.gif" alt="visual of 4-stroke engine cycle" height="400" width="300">
+<img src="img/4stroke_cycle.gif" alt="visual of 4-stroke engine cycle" width="300">
 
 
 _In most four-stroke engines, there are two combustions per revolution of the crankshaft ([image source](https://xorl.wordpress.com/2011/03/05/the-basics-of-4-stroke-internal-combustion-engines/))._
