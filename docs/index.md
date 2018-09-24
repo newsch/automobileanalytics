@@ -35,6 +35,8 @@ For the car tested, we identified that there should be two combustions per rotat
 
 <img src="img/rpm_conversion_eqn.svg" alt="rpm conversion equation">
 <img src="img/rpm_conversion_eqn.svg" alt="rpm conversion equation" height="800" width="400">
+<img src="./rpm_conversion_eqn.svg">
+
 
 Using this equation we were able to estimate what frequency engine RPM would appear as and then analyze the accelerometer data recorded by the phone at different engine RPMs to see if the frequency showed up in our collected data.
 
