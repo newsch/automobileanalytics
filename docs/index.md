@@ -34,6 +34,7 @@ _In most four-stroke engines, there are two combustions per revolution of the cr
 For the car tested, we identified that there should be two combustions per rotation of the crankshaft. This was important for us because we attributed each pulse of engine vibration to an individual combustion.
 
 <img src="img/rpm_conversion_eqn.svg" alt="rpm conversion equation">
+<img src="img/rpm_conversion_eqn.svg" alt="rpm conversion equation" height="800" width="400">
 
 Using this equation we were able to estimate what frequency engine RPM would appear as and then analyze the accelerometer data recorded by the phone at different engine RPMs to see if the frequency showed up in our collected data.
 
