@@ -14,11 +14,14 @@ Automobile Analytics intends to make it easier for new/inexperienced and ridesha
 
 
 ### How it works
+Our app detects utilizes the accelerometer found in cell phones to identify different driving maneuvers such as turning, braking, starting, and shifting(manual). After identifying maneuvers, it then uses our custom algorithm to decide if the maneuver was more aggressive than our baseline maneuvers.
 
 
 
 ### Recognizing movements
 Automobile Analytics focused on a few basic driving behaviors such as, turning, braking, starting and stopping. Using a dashboard mounted phone, we can utilize accelerometer data to identify if the vehicle is turning too sharply, stopping too hard,  starting in a not smooth manner, or shifting in an unsettling way.
+
+<img src="img/Car_reference_frames.svg" alt="Car-Phone Reference Frames" height="800" width="400">
 
 
 
