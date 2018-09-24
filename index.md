@@ -1,4 +1,5 @@
-## Welcome to GitHub Pages
+## Automobile Analytics
+_Data-driven driving._
 
 You can use the [editor on GitHub](https://github.com/newsch/automobileanalytics/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
