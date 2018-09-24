@@ -5,34 +5,31 @@ You can use the [editor on GitHub](https://github.com/newsch/automobileanalytics
 
 ![engine frequency at 750rpm](img/engine_frequency750.svg)
 
-### Markdown
+### Background
+Improving driving skills can be a stressful and confusing endeavor. A skilled driver can improve the experience of passengers and create a safer environment for other vehicles on the road.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+### Purpose
+Automobile Analytics intends to make it easier for new/inexperienced and rideshare drivers to improve their driving ability through real time analysis and feedback via a downloadable app.
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
+### How it works
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
+### Recognizing movements
+Automobile Analytics focused on a few basic driving behaviors such as, turning, braking, starting and stopping. Using a dashboard mounted phone, we can utilize accelerometer data to identify if the vehicle is turning too sharply, stopping too hard,  starting in a not smooth manner, or shifting in an unsettling way.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/newsch/automobileanalytics/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### Detecting Engine RPM
+In order to analyze shifting data for manual transmission drivers, our app can determine engine RPM based on engine vibration, felt through the dashboard of the vehicle. A quick momentary drop in engine rpms is an easy way to identify an upshift while rapid changes in accelerometer data indicates rough shifts. For the car tested, we identified that there should be two combustions per rotation of the crankshaft. This was important for us because we attributed each pulse of engine vibration to an individual combustion. Using this knowledge we came up with the equation, ‘Detected frequency = engine RPM * 2(combustions per rotation) * 1min/60sec’. Using this equation we were able to estimate what frequency engine RPM would appear as and then analyze the accelerometer data recorded by the phone at different engine RPMs to see if the frequency showed up in our collected data.
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+
+### Future Steps
+Reading engine RPM data from the OBDII port (a diagnostics port found in most modern cars) instead of accelerometer data would give the direct engine RPM instead of an approximation. For our proof of concept we did not use OBDII data because it required a difficult to find hardware adapter to read data directly from the port, and adds additional setup/cost to the system. 
+Another step would be to include a source of vocal feedback, ideally the phone would speak to the driver to notify them of their poor driving.
+A final step would be to create an actual app that could be downloaded onto a phone, with some sort of a user interface so the user could interact with the app.
+
+
